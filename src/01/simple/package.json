@@ -1,0 +1,9 @@
+{
+    "name": "simple",
+    "author": "Pep Lainez",
+    "private": true,
+    "version": "0.0.1",
+    "dependencies": {
+        "mustache": "^4.2.0"
+    }
+}
