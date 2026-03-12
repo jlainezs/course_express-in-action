@@ -56,3 +56,16 @@ Dependencies can be manually added to the `package.json` file, but then you must
 
 ### Defining own modules
 
+To create a module, create a file, add some functions, constants, ... and export what is needed.
+
+```
+function f(){...}
+
+module.exports = f;
+```
+
+Then require the file using dot syntax.
+```
+var myf = require('./mymod.js');
+var r = myf.f();
+```
