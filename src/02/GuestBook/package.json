@@ -3,12 +3,16 @@
     "author": "Your Name Here!",
     "private": true,
     "scripts": {
-        "start": "node app"
+        "start": "node app",
+        "ejslint": ".\\node_modules\\.bin\\ejslint views\\*.ejs"
     },
     "dependencies": {
         "body-parser": "^2.2.2",
         "ejs": "^5.0.1",
         "express": "^5.2.1",
         "morgan": "^1.10.1"
+    },
+    "devDependencies": {
+        "ejs-lint": "^2.0.1"
     }
 }
