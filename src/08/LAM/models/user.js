@@ -1,6 +1,6 @@
 var mongoose = require("mongoose");
 
-var bcrypt = require("bcrypt-nodejs");
+var bcrypt = require("bcryptjs");
 var SALT_FACTOR = 10;
 var noop = function () { };
 
